@@ -53,25 +53,7 @@ export default function CertificatesPage() {
       label: "Certificate of Completion",
       icon: CheckCircle,
       color: "bg-[#0D7FA1] text-white",
-    },
-    { 
-      value: "achievement", 
-      label: "Certificate of Achievement", 
-      icon: Trophy, 
-      color: "bg-[#52C0DB] text-white" 
-    },
-    {
-      value: "participation",
-      label: "Certificate of Participation",
-      icon: Medal,
-      color: "bg-[#FBD311] text-gray-800",
-    },
-    { 
-      value: "excellence", 
-      label: "Certificate of Excellence", 
-      icon: Star, 
-      color: "bg-[#c53030] text-white" 
-    },
+    }
   ]
 
   const handleInputChange = (field, value) => {

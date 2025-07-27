@@ -76,11 +76,11 @@ export function LoginForm() {
           </Button>
         </form>
         <div className="mt-4 text-sm text-gray-600">
-          <p>
+          {/* <p>
             <strong>Demo Credentials:</strong>
-          </p>
-          <p>Trainee: trainee@demo.com / demo123</p>
-          <p>Admin: admin@demo.com / demo123</p>
+          </p> */}
+          {/* <p>Trainee: trainee@demo.com / demo123</p>
+          <p>Admin: admin@demo.com / demo123</p> */}
         </div>
       </CardContent>
     </Card>
