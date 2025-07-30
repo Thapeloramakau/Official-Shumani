@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* PAYMENT HISTORY PAGE */
+/* payment card*/
+.card {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 5px;
+}
+
+.balance {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f43f5e;
+  margin-bottom: 15px;
+}
+
+.chart-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center-text {
+  position: absolute;
+  text-align: center;
+  color: #0f172a;
+}
+
+.center-text p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.center-text h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+/* Payment History */
+.card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.balance {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f43f5e;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center-text p {
+  font-size: 16px;
+  color: #888;
+}
+
+.center-text h3 {
+  font-size: 22px;
+  color: #38bdf8;
+  margin-top: 5px;
+}
+
+/* History Card */
+.history-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.history-left {
+  flex-direction: column;
+}
+
+.ref {
+  font-weight: 500;
+  color: #333;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
+}
+
+.amount {
+  font-size: 16px;
+  font-weight: bold;
+  color: #10b981;
+}
+
+
+.app-container {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  margin-left: 60px;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+}
+
+.sidebar.expanded ~ .content {
+  margin-left: 200px;
+}

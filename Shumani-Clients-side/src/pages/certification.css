@@ -1,0 +1,64 @@
+.certification-page {
+  background-color: #0D7FA1;
+  min-height: 100vh;
+  padding: 2rem;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.business-card{
+  background-color: white;
+  color: #0D7FA1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 48%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.cert-count-card {
+    background-color: white;
+  color: #0D7FA1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 28%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.cert-preview-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  max-width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.cert-preview-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.cert-buttons button {
+  margin: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #0D7FA1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cert-buttons button:hover {
+  background-color: #0a6b8a;
+}

@@ -1,0 +1,77 @@
+/* dashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  min-height: 100vh;
+  color: #0D7FA1;
+  border-radius: 15px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.dashboard-title {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.dashboard-bell {
+  position: relative;
+  cursor: pointer;
+}
+
+.bell-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  background-color:  #0D7FA1;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+  min-width: 18px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid  #0D7FA1;
+}
+
+.section-heading {
+  font-size: 22px;
+  color: #0D7FA1;
+  margin-bottom: 15px;
+}
+
+.card-box {
+  background-color:  #0D7FA1;
+  border-radius: 12px;
+  padding: 20px;
+  color: white;
+}
+
+.card-item {
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #475569;
+}
+
+.card-date {
+  color: #94a3b8;
+}

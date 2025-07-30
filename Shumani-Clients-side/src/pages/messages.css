@@ -1,0 +1,79 @@
+.notification-page {
+  background-color: #0D7FA1;
+  min-height: 100vh;
+  padding: 24px;
+  color: white;
+}
+
+.notification-container {
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+  color: black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.notification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.filter-select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.notification-section {
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #0D7FA1;
+}
+
+.notification-card {
+  background-color: #f9f9f9;
+  border-left: 4px solid #0D7FA1;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.notification-details {
+  max-width: 75%;
+}
+
+.notification-topic {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.notification-date {
+  font-size: 0.85rem;
+  color: gray;
+  margin-top: 4px;
+}
+
+.notification-actions button {
+  background-color: #0D7FA1;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.notification-actions button:hover {
+  background-color: #095e7a;
+}
